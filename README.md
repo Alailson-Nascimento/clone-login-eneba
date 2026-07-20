@@ -91,7 +91,7 @@ clone-login-eneba/
 **Alailson Nascimento**
 
 - 🎓 Estudante de Desenvolvimento Web
-- 💼 [LinkedIn](https://www.linkedin.com/in/alailson-nascimento/) *(adicione seu link)*
+- 💼 [LinkedIn](https://www.linkedin.com/in/alailson-nascimento/)
 - 🐱 [GitHub](https://github.com/Alailson-Nascimento)
 
 ---
