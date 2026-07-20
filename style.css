@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --roxo-claro: #4a1fb5;
+    --roxo-escuro: #1a0b4e;
+    --roxo-input: #3d1a99;
+    --amarelo: #FAD318;
+    --branco: #ffffff;
+    --cinza: #b3b3b3;
+    --azul-facebook: #5266FC;
+    --preto: #000000;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--roxo-claro);
+    color: var(--branco);
+    min-height: 100vh;
+}
+
+header {
+    padding: 20px;
+}
+
+.logo {
+    width: 230px;
+    object-fit: cover;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.apresentacao {
+    display: none;
+}
+
+.area-login {
+    width: 100%;
+    max-width: 400px;
+}
+.caixa-login {
+    padding: 30px;
+    width: 100%;
+    background-color: var(--roxo-claro);  
+    margin-bottom: 54px;
+}
+
+.caixa-login h2{
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+.caixa-login p {
+    font-size: 13px;
+    color: var(--cinza);
+    text-decoration: none;
+    font-weight: 600;
+     margin-bottom: 10px;
+}
+
+.caixa-login a {
+    color: var(--amarelo);
+    text-decoration: none;
+}
+.rede-social-login-button {
+   width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: none;
+    /* border-radius: 4px; */
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 600;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.rede-social-login-button:nth-child(1) {
+    background-color: var(--branco);
+    color: var(--preto);
+}
+.rede-social-login-button:nth-child(1):hover{
+    background-color: #E6E6E6;
+}
+
+.rede-social-login-button:nth-child(2) {
+    background-color: var(--azul-facebook);
+    color: var(--branco);
+}
+.rede-social-login-button:nth-child(2):hover{
+    background-color: #3950FC;
+}
+.rede-social-login-button:nth-child(3) {
+    background-color: var(--preto);
+    color: var(--branco);
+}
+
+
+.rede-social-icons {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    margin-bottom: 20px;
+}
+
+.rede-social-icons a {
+    color: var(--branco);
+    font-size: 24px;
+    text-decoration: none;
+}
+.rede-social-icons a:hover{
+    color: var(--amarelo);
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    color: var(--cinza);
+    margin: 20px 0;
+}
+
+.divider::before {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    margin-right: 10px;
+}
+
+.divider::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    margin-left: 10px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: var(--roxo-input);
+    color: var(--branco);
+    font-size: 14px;
+}
+
+.input-field::placeholder {
+    color: var(--cinza);
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: var(--cinza);
+}
+
+.btn-primary {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    /* border-radius: 4px; */
+    background-color: var(--amarelo);
+    color: var(--preto);
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn-secondary {
+    width: 100%;
+    padding: 9px;
+    border: 1px solid var(--branco);
+    /* border-radius: 4px; */
+    background-color: transparent;
+    color: var(--branco);
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.login-password {
+    display: none;
+}
+
+.mostrar-senha {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: var(--cinza);
+    cursor: pointer;
+}
+.esqueceu-senha {
+    display: block;
+    text-align: center;
+    margin: 15px 0;
+    font-size: 14px;
+    color: var(--amarelo);
+    text-decoration: none;
+}
+.footer {
+    text-align: center;
+    padding: 30px 20px;
+}
+.idioma {
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: var(--cinza);
+}
+
+.idioma i {
+    margin-right: 5px;
+}
+
+.footer-links {
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: var(--branco);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.footer p {
+    font-size: 12px;
+    color: var(--cinza);
+}
+
+
+@media (min-width: 1001px){
+       body {
+        background-color: var(--roxo-escuro);
+    }
+      main {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+        min-height: 80vh;
+        /* width: 230vh; */
+    }
+     .apresentacao {
+        display: block;
+    }
+    .apresentacao h1 {
+        font-size: 80px;
+    }
+
+    .apresentacao h2 {
+        font-size: 90px;
+    }
+    .area-login{
+        max-width: 5%;
+    }
+    .caixa-login {
+        background-color: var(--roxo-claro);
+        width: 400px;
+        padding: 40px;
+        
+    }
+     .footer-links {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .footer-links li {
+        margin-bottom: 0;
+    }
+}
