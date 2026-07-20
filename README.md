@@ -27,10 +27,12 @@ O objetivo é demonstrar a capacidade de **reproduzir uma interface profissional
 ## 📸 Preview
 
 ### Mobile (até 1000px)
-![Preview Mobile](./preview-mobile.png)
+<img width="1903" height="994" alt="{0F456810-FBC5-4725-B751-B6899D853D6B}" src="https://github.com/user-attachments/assets/e5d708c1-30c3-4558-9734-7c7d1f066315" />
+)
 
 ### Desktop (1001px+)
-![Preview Desktop](./preview-desktop.png)
+<img width="438" height="909" alt="{3945D78B-01C7-4B1B-B8F4-7D17161449AA}" src="https://github.com/user-attachments/assets/31abc7b2-39f6-4b7a-8872-57957f99f8f1" />
+)
 
 ---
 
@@ -89,7 +91,7 @@ clone-login-eneba/
 **Alailson Nascimento**
 
 - 🎓 Estudante de Desenvolvimento Web
-- 💼 [LinkedIn](https://linkedin.com/in/seu-perfil) *(adicione seu link)*
+- 💼 [LinkedIn](https://www.linkedin.com/in/alailson-nascimento/) *(adicione seu link)*
 - 🐱 [GitHub](https://github.com/Alailson-Nascimento)
 
 ---
